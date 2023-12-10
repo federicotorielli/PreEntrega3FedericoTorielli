@@ -3,6 +3,9 @@
     padding: 0;
 }
 
+@import "partials/mixins";
+@import "partials/paginas";
+
 /* Estilos al header */
 header {
     background-color: #c8b5a6;
@@ -10,14 +13,16 @@ header {
     nav {
         text-align: center;
         padding: 5px;
-        display: flex;
-        justify-content: space-around;
-        flex-wrap: wrap;
+        @include flex;
 
         img {
             width: 60px;
             height: 54px;
             border-radius: 15px;
+            transition: scale 0.3s ease-in-out;
+            &:hover{
+                scale: 115%;
+            }
         }
 
         a {
@@ -68,9 +73,7 @@ main {
 //estilos a las tarjetas con ejemplos de productos
     .productos {
         text-align: center;
-        display: flex;
-        justify-content: space-around;
-        flex-wrap: wrap;
+        @include flex;
         flex-direction: row;
 
         .tarjetas {
@@ -110,9 +113,7 @@ main {
         .bottom {
             border: 1px solid #ccb7a7e0;
             background-image: linear-gradient(to top, #dbc8b7, #e6ddd5);
-            display: flex;
-            justify-content: space-around;
-            flex-wrap: wrap;
+            @include flex;
             border-radius: 20px;
 
             img {
@@ -137,9 +138,7 @@ main {
 /* Estilos al footer */
 footer {
     background-color: #c8b5a6;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+    @include flex;
     padding: 10px;
 
     .copy {

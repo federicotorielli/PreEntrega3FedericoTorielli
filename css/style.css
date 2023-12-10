@@ -3,6 +3,38 @@
   padding: 0;
 }
 
+.titulo-paginas {
+  font-family: sans-serif, Verdana, Geneva, Tahoma;
+  font-weight: bold;
+  color: #180202;
+  padding: 25px;
+  margin-left: 10px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.nosotros {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  color: #180202;
+  background-image: linear-gradient(#e4ded9, #e8e4e1);
+  border-radius: 3%;
+}
+
+.locales {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.locales img {
+  height: 350px;
+  width: 550px;
+}
+
 /* Estilos al header */
 header {
   background-color: #c8b5a6;
@@ -18,6 +50,10 @@ header nav img {
   width: 60px;
   height: 54px;
   border-radius: 15px;
+  transition: scale 0.3s ease-in-out;
+}
+header nav img:hover {
+  scale: 115%;
 }
 header nav a {
   color: #312c28;
