@@ -3,4 +3,140 @@
   padding: 0;
 }
 
+/* Estilos al header */
+header {
+  background-color: #c8b5a6;
+}
+header nav {
+  text-align: center;
+  padding: 5px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+header nav img {
+  width: 60px;
+  height: 54px;
+  border-radius: 15px;
+}
+header nav a {
+  color: #312c28;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: sans-serif, Verdana, Geneva, Tahoma;
+}
+
+/* Estilos al main */
+main {
+  background-color: #e0e0eb;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* Estilos a la ultima section de la pagina de inicio */
+}
+main section {
+  margin: 15px;
+  /* Estilos del intro box */
+}
+main section .intro {
+  border: 1px solid rgba(204, 183, 167, 0.8784313725);
+  background-image: linear-gradient(#dbc8b7, #e6ddd5);
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border-radius: 20px;
+}
+main section .intro img {
+  width: 350px;
+  height: 250px;
+}
+main section .intro p {
+  margin-top: 10px;
+  font-family: sans-serif, Verdana, Geneva, Tahoma;
+  color: #180202;
+  text-align: center;
+  line-height: 30px;
+}
+main .productos {
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+main .productos .tarjetas {
+  font-family: sans-serif, Verdana, Geneva, Tahoma;
+  color: #180202;
+  width: 300px;
+  border-radius: 15px;
+  margin-top: 10px;
+  margin-left: 20px;
+  background-color: #f3f3f3;
+  transition: box-shadow 0.3s ease-in-out;
+  transition: scale 0.3s ease-in-out;
+  /* Aplicamos sombreado cuando el cursor hovers over the box */
+}
+main .productos .tarjetas:hover {
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+  scale: 103%;
+}
+main .productos .tarjetas:hover img {
+  border-radius: 35px;
+}
+main .productos .tarjetas img {
+  width: 250px;
+  height: 230px;
+  padding: 20px;
+  border-radius: 100%;
+  transition: border-radius 0.4s ease-in-out;
+}
+main section .bottom {
+  border: 1px solid rgba(204, 183, 167, 0.8784313725);
+  background-image: linear-gradient(to top, #dbc8b7, #e6ddd5);
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  border-radius: 20px;
+}
+main section .bottom img {
+  width: 350px;
+  height: 150px;
+  border-radius: 20px;
+}
+main section .bottom ol {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  font-family: sans-serif, Verdana, Geneva, Tahoma;
+  color: #180202;
+  text-align: justify;
+  line-height: 30px;
+}
+
+/* Estilos al footer */
+footer {
+  background-color: #c8b5a6;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+footer .copy {
+  font-family: Helvetica, Arial, sans-serif;
+  color: black;
+  margin-right: 200px;
+}
+footer .redes {
+  margin-left: 200px;
+}
+footer .redes a {
+  padding: 10px;
+  font-family: Helvetica, Arial, sans-serif;
+  color: black;
+  text-decoration: none;
+}
+
 /*# sourceMappingURL=style.css.map */
