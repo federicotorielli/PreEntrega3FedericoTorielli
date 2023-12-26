@@ -8,7 +8,7 @@
 
 /* Estilos al header */
 header {
-    background-color: #c8b5a6;
+    background-color: #6c4f3d;
 
     nav {
         text-align: center;
@@ -18,7 +18,7 @@ header {
         img {
             width: 60px;
             height: 54px;
-            border-radius: 15px;
+            border-radius: 100%;
             transition: scale 0.3s ease-in-out;
             &:hover{
                 scale: 115%;
@@ -26,21 +26,24 @@ header {
         }
 
         a {
-            color: #312c28;
             text-decoration: none;
             font-size: 25px;
-            font-family: sans-serif, Verdana, Geneva, Tahoma;
+            @include googlefont;
         }
     }
 }
 
 /* Estilos al main */
 main {
-    background-color: #e0e0eb;
+    background-color: #fff;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
     flex-wrap: wrap;
+    .img-fluid{
+        width: 100%;
+        height: auto;
+    }
 
     section {
         margin: 15px;
@@ -48,7 +51,7 @@ main {
         /* Estilos del intro box */
         .intro {
             border: 1px solid #ccb7a7e0;
-            background-image: linear-gradient(#dbc8b7, #e6ddd5);
+            background-image: linear-gradient(#f3e0cc, #fff);
             text-align: center;
             display: flex;
             justify-content: space-around;
@@ -63,9 +66,10 @@ main {
 
             p {
                 margin-top: 10px;
-                font-family: sans-serif, Verdana, Geneva, Tahoma;
-                color: #180202;
+                @include googlefont;
+                color: #11242a;
                 text-align: center;
+                font-weight: bold;
                 line-height: 30px;
             }
         }
@@ -77,13 +81,13 @@ main {
         flex-direction: row;
 
         .tarjetas {
-            font-family: sans-serif, Verdana, Geneva, Tahoma;
-            color: #180202;
+            @include googlefont;
+            color: #11242a;
             width: 300px;
             border-radius: 15px;
             margin-top: 10px;
             margin-left: 20px;
-            background-color: #f3f3f3;
+            background-color: #fff;
             transition: box-shadow 0.3s ease-in-out;
             transition: scale 0.3s ease-in-out;
 
@@ -104,6 +108,10 @@ main {
                 border-radius: 100%;
                 transition: border-radius 0.4s ease-in-out;
             }
+            p{
+                padding: 25px;
+                text-align: justify;
+            }
         }
     }
 
@@ -122,11 +130,11 @@ main {
                 border-radius: 20px;
             }
 
-            ol {
+            .listabottom {
                 margin-top: 10px;
                 display: flex;
                 flex-wrap: wrap;
-                font-family: sans-serif, Verdana, Geneva, Tahoma;
+                @include googlefont;
                 color: #180202;
                 text-align: justify;
                 line-height: 30px;
@@ -142,7 +150,7 @@ footer {
     padding: 10px;
 
     .copy {
-        font-family: Helvetica, Arial, sans-serif;
+        @include googlefont;
         color: black;
         margin-right: 200px;
     }
@@ -152,7 +160,7 @@ footer {
 
         a {
             padding: 10px;
-            font-family: Helvetica, Arial, sans-serif;
+            @include googlefont;
             color: black;
             text-decoration: none;
         }

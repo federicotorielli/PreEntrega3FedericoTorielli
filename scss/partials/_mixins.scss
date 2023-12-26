@@ -3,3 +3,7 @@
     justify-content: space-around;
     flex-wrap: wrap;
 }
+
+@mixin googlefont{
+    font-family: 'Urbanist', sans-serif, Verdana, Geneva, Tahoma;
+}

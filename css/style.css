@@ -4,7 +4,7 @@
 }
 
 .titulo-paginas {
-  font-family: sans-serif, Verdana, Geneva, Tahoma;
+  font-family: "Urbanist", sans-serif, Verdana, Geneva, Tahoma;
   font-weight: bold;
   color: #180202;
   padding: 25px;
@@ -37,7 +37,7 @@
 
 /* Estilos al header */
 header {
-  background-color: #c8b5a6;
+  background-color: #6c4f3d;
 }
 header nav {
   text-align: center;
@@ -49,27 +49,30 @@ header nav {
 header nav img {
   width: 60px;
   height: 54px;
-  border-radius: 15px;
+  border-radius: 100%;
   transition: scale 0.3s ease-in-out;
 }
 header nav img:hover {
   scale: 115%;
 }
 header nav a {
-  color: #312c28;
   text-decoration: none;
   font-size: 25px;
-  font-family: sans-serif, Verdana, Geneva, Tahoma;
+  font-family: "Urbanist", sans-serif, Verdana, Geneva, Tahoma;
 }
 
 /* Estilos al main */
 main {
-  background-color: #e0e0eb;
+  background-color: #fff;
   display: flex;
   justify-content: space-between;
   flex-direction: row;
   flex-wrap: wrap;
   /* Estilos a la ultima section de la pagina de inicio */
+}
+main .img-fluid {
+  width: 100%;
+  height: auto;
 }
 main section {
   margin: 15px;
@@ -77,7 +80,7 @@ main section {
 }
 main section .intro {
   border: 1px solid rgba(204, 183, 167, 0.8784313725);
-  background-image: linear-gradient(#dbc8b7, #e6ddd5);
+  background-image: linear-gradient(#f3e0cc, #fff);
   text-align: center;
   display: flex;
   justify-content: space-around;
@@ -91,9 +94,10 @@ main section .intro img {
 }
 main section .intro p {
   margin-top: 10px;
-  font-family: sans-serif, Verdana, Geneva, Tahoma;
-  color: #180202;
+  font-family: "Urbanist", sans-serif, Verdana, Geneva, Tahoma;
+  color: #11242a;
   text-align: center;
+  font-weight: bold;
   line-height: 30px;
 }
 main .productos {
@@ -104,13 +108,13 @@ main .productos {
   flex-direction: row;
 }
 main .productos .tarjetas {
-  font-family: sans-serif, Verdana, Geneva, Tahoma;
-  color: #180202;
+  font-family: "Urbanist", sans-serif, Verdana, Geneva, Tahoma;
+  color: #11242a;
   width: 300px;
   border-radius: 15px;
   margin-top: 10px;
   margin-left: 20px;
-  background-color: #f3f3f3;
+  background-color: #fff;
   transition: box-shadow 0.3s ease-in-out;
   transition: scale 0.3s ease-in-out;
   /* Aplicamos sombreado cuando el cursor hovers over the box */
@@ -129,6 +133,10 @@ main .productos .tarjetas img {
   border-radius: 100%;
   transition: border-radius 0.4s ease-in-out;
 }
+main .productos .tarjetas p {
+  padding: 25px;
+  text-align: justify;
+}
 main section .bottom {
   border: 1px solid rgba(204, 183, 167, 0.8784313725);
   background-image: linear-gradient(to top, #dbc8b7, #e6ddd5);
@@ -142,11 +150,11 @@ main section .bottom img {
   height: 150px;
   border-radius: 20px;
 }
-main section .bottom ol {
+main section .bottom .listabottom {
   margin-top: 10px;
   display: flex;
   flex-wrap: wrap;
-  font-family: sans-serif, Verdana, Geneva, Tahoma;
+  font-family: "Urbanist", sans-serif, Verdana, Geneva, Tahoma;
   color: #180202;
   text-align: justify;
   line-height: 30px;
@@ -161,7 +169,7 @@ footer {
   padding: 10px;
 }
 footer .copy {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: "Urbanist", sans-serif, Verdana, Geneva, Tahoma;
   color: black;
   margin-right: 200px;
 }
@@ -170,7 +178,7 @@ footer .redes {
 }
 footer .redes a {
   padding: 10px;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: "Urbanist", sans-serif, Verdana, Geneva, Tahoma;
   color: black;
   text-decoration: none;
 }
