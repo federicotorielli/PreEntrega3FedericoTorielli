@@ -15,8 +15,12 @@
     @include flex;
     @include googlefont;
     color: #11242a;
-    background-image: linear-gradient(#e4ded9, #e8e4e1);
-    border-radius: 3%;
+    font-weight: bold;
+    .imgnosotros{
+        width: 30%;
+        height: auto;
+        border-radius: 3%;
+}
 }
 //Estilos para la Pagina Locales
 .locales {
@@ -31,7 +35,8 @@
     }
 
     p{
-        margin-top: 2%;
+        margin-top: 6%;
+        margin-bottom: 7%
     }
 }
 //Estilos para la Pagina Contactanos

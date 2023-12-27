@@ -21,7 +21,11 @@
   flex-wrap: wrap;
   font-family: "Urbanist", sans-serif, Verdana, Geneva, Tahoma;
   color: #11242a;
-  background-image: linear-gradient(#e4ded9, #e8e4e1);
+  font-weight: bold;
+}
+.nosotros .imgnosotros {
+  width: 30%;
+  height: auto;
   border-radius: 3%;
 }
 
@@ -38,7 +42,8 @@
   width: 60%;
 }
 .locales p {
-  margin-top: 2%;
+  margin-top: 6%;
+  margin-bottom: 7%;
 }
 
 .formulario {
