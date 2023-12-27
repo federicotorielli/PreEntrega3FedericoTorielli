@@ -101,6 +101,7 @@ main {
 
         .tarjetas {
             @include googlefont;
+            text-indent: 15px;
             color: #11242a;
             width: 320px;
             border-radius: 15px;

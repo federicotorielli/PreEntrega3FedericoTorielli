@@ -149,6 +149,7 @@ main .productos {
 }
 main .productos .tarjetas {
   font-family: "Urbanist", sans-serif, Verdana, Geneva, Tahoma;
+  text-indent: 15px;
   color: #11242a;
   width: 320px;
   border-radius: 15px;
