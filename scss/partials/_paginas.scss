@@ -41,3 +41,8 @@
         width: 100%;
     }
 }
+//Estilos para la Pagina Productos
+.productos{
+    @include flex;
+    @include googlefont;
+}

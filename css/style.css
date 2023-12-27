@@ -50,6 +50,13 @@
   width: 100%;
 }
 
+.productos {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  font-family: "Urbanist", sans-serif, Verdana, Geneva, Tahoma;
+}
+
 /* Estilos al header */
 header {
   background-color: #6c4f3d;
