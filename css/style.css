@@ -6,7 +6,7 @@
 .titulo-paginas {
   font-family: "Urbanist", sans-serif, Verdana, Geneva, Tahoma;
   font-weight: bold;
-  color: #180202;
+  color: #11242a;
   padding: 25px;
   margin-left: 10px;
   margin-top: 10px;
@@ -19,7 +19,8 @@
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  color: #180202;
+  font-family: "Urbanist", sans-serif, Verdana, Geneva, Tahoma;
+  color: #11242a;
   background-image: linear-gradient(#e4ded9, #e8e4e1);
   border-radius: 3%;
 }
@@ -33,6 +34,15 @@
 .locales img {
   height: 350px;
   width: 550px;
+}
+
+.formulario {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.formulario .mb-3 {
+  width: 100%;
 }
 
 /* Estilos al header */

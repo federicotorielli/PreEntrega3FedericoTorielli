@@ -39,29 +39,29 @@
     </header>
     <h1 class="titulo-paginas">Contactanos</h1>
     <main>
-        <article>
-            <form>
-                <fieldset>
-                    <div>
-                        <input type="text" placeholder="Ingrese su Nombre">
-                    </div>
-                    <div>
-                        <input type="text" placeholder="Ingrese su Apellido">
-                    </div>
-                    <div>
-                        <input type="email" placeholder="Ingrese su Correo">
-                    </div>
-                    <div>
-                        <textarea cols="55" rows="10" placeholder="Comentarios"></textarea>
-                    </div>
-                    <button type="submit">Enviar</button>
-                </fieldset>
-            </form>
-        </article>
         <section>
-            <div>
-                <img src="../media/aigeneratedlogo.png" alt="cafe-logo">
-            </div>
+            <form class="formulario">
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1"
+                        placeholder="Ingrese su Nombre">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Apellido</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1"
+                        placeholder="Ingrese su Apellido">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1"
+                        placeholder="name@example.com">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Comentarios</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
+                </div>
+                <input class="btn btn-primary" type="reset" value="Enviar">
+            </form>
         </section>
     </main>
     <footer>
