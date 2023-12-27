@@ -30,10 +30,15 @@
   justify-content: space-around;
   flex-wrap: wrap;
   text-align: center;
+  font-family: "Urbanist", sans-serif, Verdana, Geneva, Tahoma;
+  font-weight: bold;
 }
 .locales img {
-  height: 350px;
-  width: 550px;
+  height: auto;
+  width: 60%;
+}
+.locales p {
+  margin-top: 2%;
 }
 
 .formulario {

@@ -22,10 +22,16 @@
 .locales {
     @include flex;
     text-align: center;
+    @include googlefont;
+    font-weight: bold;
 
     img {
-        height: 350px;
-        width: 550px;
+        height: auto;
+        width: 60%;
+    }
+
+    p{
+        margin-top: 2%;
     }
 }
 //Estilos para la Pagina Contactanos
